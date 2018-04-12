@@ -47,6 +47,8 @@
     oh-my-zsh
     nodejs
     nodePackages.node2nix
+    silver-searcher
+    tmux
     termite
     vim
     w3m
