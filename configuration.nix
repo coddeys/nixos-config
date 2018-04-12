@@ -44,12 +44,12 @@
     firefox
     git
     gmrun
-    oh-my-zsh
-    nodejs
     nodePackages.node2nix
+    nodejs-8_x
+    oh-my-zsh
     silver-searcher
-    tmux
     termite
+    tmux
     vim
     w3m
     wget
