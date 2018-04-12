@@ -40,12 +40,14 @@
     chromium
     conky
     dmenu
+    elmPackages.elm
     emacs
     firefox
     git
     gmrun
     nodePackages.node2nix
     nodejs-8_x
+    ngrok
     oh-my-zsh
     silver-searcher
     termite
