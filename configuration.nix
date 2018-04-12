@@ -37,7 +37,22 @@
   # $ nix-env -qaP | grep wget
   nixpkgs.config.allowUnfree = true;
   environment.systemPackages = with pkgs; [
-    wget vim emacs git zsh chromium firefox termite conky gmrun dmenu w3m xlibs.xmodmap
+    chromium
+    conky
+    dmenu
+    emacs
+    firefox
+    git
+    gmrun
+    oh-my-zsh
+    nodejs
+    nodePackages.node2nix
+    termite
+    vim
+    w3m
+    wget
+    xlibs.xmodmap
+    zsh
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -83,6 +98,7 @@
     home = "/home/dima";
     extraGroups = ["wheel"];
     uid = 1000;
+    shell = "/run/current-system/sw/bin/zsh";
   };
 
   fonts = {
